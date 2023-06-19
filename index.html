@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>My Coding Portfolio</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <header>
+            <h1 class="heading">My Coding Portfolio</h1>
+            <h4 class="heading">By: Ming Hong</h4>
+            <fieldset>
+                <legend><h2>My Projects</h2></legend>
+                <!-- Websites -->
+                <b>Website:</b>
+                <ol>
+                    <li><a href="#mastermind">Mastermind</a></li>
+                </ol>
+                <!-- Python -->
+                <b>Python:</b>
+                <ol>
+                    <li><a href="#connect-4">Connect 4</a></li>
+                    <li><a href="#space-invaders">Space Invaders</a></li>
+                </ol>
+            </fieldset>
+        </header>
+        <main>
+            <h2><u>Project Descriptions</u></h2>
+            <h3>Website:</h3>
+            <!-- Mastermind -->
+            <section id="mastermind">
+                <h4><u>Mastermind</u></h4>
+                <a href="https://supercoder-01.github.io/WEB_Mastermind" target="_blank" class="btn">Visit site <span class="material-symbols-outlined">open_in_new</span></a>
+                <a href="https://github.com/SuperCoder-01/WEB_Mastermind" target="_blank" class="btn">Source code <span class="material-symbols-outlined">open_in_new</span></a>
+                <p>
+                    Mastermind is a code-guessing game where you have to guess a colour code by guessing and using the clues from the guesses. <i><b>Note:</b> This game can only be played on a PC.</i>
+                </p>
+                <details open>
+                    <summary><i>How to play</i></summary>
+                    <ul>
+                        <li>A 4-colour code is generated and you have 12 guesses to guess it. Each colour in the code is unique.</li>
+                        <li>The number in the left white slider indicates the number of colours that you guessed correctly but in the wrong position.</li>
+                        <li>The number in the right red slider indicates the number of colours that you guess correctly and in the correct position.</li>
+                        <li>If a slider did not move, this means '0'.</li>
+                        <li><i>To guess the code, click on the dots and press "Enter".</i></li>
+                        <li>Do not have two of the same colour in your guess.</li>
+                    </ul>
+                </details>
+                <p><i>Screenshot and demo video:</i></p>
+                <!-- Media -->
+                <div class="media">
+                    <img src="./media/images/Mastermind_IMG.png" alt="Screenshot of Mastermind when user wins" />
+                    <video src="./media/videos/Mastermind_DEMO.mp4" controls></video>
+                </div>
+            </section>
+
+            <h3>Python:</h3>
+            <em id="instructions"
+                >IMPORTANT: For all Python projects shown,
+                <ol>
+                    <li>Download .zip file and extract it into a folder.</li>
+                    <li><u>Make sure all files are in the same folder.</u></li>
+                    <li>Run the .exe file to run the project.</li>
+                </ol>
+            </em>
+
+            <!-- Connect 4 -->
+            <section id="connect-4">
+                <h4><u>Connect 4</u></h4>
+                <a href="./media/zip/Connect 4.zip" download="Connect 4.zip" class="btn"><span class="material-symbols-outlined">download</span> Zip file</a>
+                <a href="https:/\/github.com/SuperCoder-01/PY_Connect-4" target="_blank" class="btn">Source code <span class="material-symbols-outlined">open_in_new</span></a>
+                <p>Connect 4 is a 2-player game where both players take turns placing their colour on a board. A player wins when a row/column/diagonal of 4 of that player's colour lines up.</p>
+                <details open>
+                    <summary><i>How to play</i></summary>
+                    <ul>
+                        <li>Hover over any column and click the mouse. That player's colour will be dropped in that column if there is at least one empty space in that column.</li>
+                        <li>Both players take turns dropping their colour until one player wins or all spaces have been filled, in that case it is a draw.</li>
+                    </ul>
+                </details>
+                <p><i>Screenshot and demo video:</i></p>
+                <!-- Media -->
+                <div class="media">
+                    <img src="./media/images/Connect 4_IMG.png" alt="Screenshot of Connect 4 when yellow wins" />
+                    <video src="./media/videos/Connect 4_DEMO.mp4" controls></video>
+                </div>
+            </section>
+
+            <!-- Space Invaders -->
+            <section id="space-invaders">
+                <h4><u>Space Invaders</u></h4>
+                <a href="./media/zip/Space Invaders.zip" download="Space Invaders.zip" class="btn"><span class="material-symbols-outlined">download</span> Zip file</a>
+                <a href="https://github.com/SuperCoder-01/PY_Space-Invaders" target="_blank" class="btn">Source code <span class="material-symbols-outlined">open_in_new</span></a>
+                <p>In this game, your task is to shoot enemies that are coming down the screen while avoiding the enemies' projectiles.</p>
+                <details open>
+                    <summary><i>How to play</i></summary>
+                    <ul>
+                        <li>You have a certain health; every time you get hit by an enemy's projectile, your health decreases.</li>
+                        <li>You also have 3 lives. You lose a life when an enemy reaches the bottom of the screen.</li>
+                        <li>You lose the game when all 3 lives are lost, or when your health decreases to 0.</li>
+                        <li>There are different levels, and at each level, there will be a wave of enemies coming down the screen.</li>
+                        <li>When all enemies are shot, you move on to the next level.</li>
+                    </ul>
+                </details>
+                <p><i>Screenshot and demo video:</i></p>
+                <!-- Media -->
+                <div class="media">
+                    <img src="./media/images/Space Invaders_IMG.png" alt="Screenshot of Space Invaders" />
+                    <video src="./media/videos/Space Invaders_DEMO.mp4" controls></video>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <u>Other links</u>
+            <a href="https://github.com/SuperCoder-01">All my GitHub repositories</a>
+        </footer>
+
+        <a href="#" title="Back to top" class="material-symbols-outlined btn" id="to-top-btn">arrow_upward</a>
+    </body>
+</html>

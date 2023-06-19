@@ -1,0 +1,91 @@
+.material-symbols-outlined {
+    font-size: inherit;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+    position: relative;
+}
+body {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.heading {
+    text-align: center;
+    margin: 0;
+}
+h1 {
+    color: #ffae42;
+    text-shadow: 3px 3px 2px black;
+}
+fieldset {
+    border: 2px dotted blue;
+}
+fieldset > legend > h2 {
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+fieldset b,
+main h3 {
+    font-size: 14pt;
+}
+
+a {
+    color: rgb(5, 152, 98);
+}
+a:hover {
+    filter: brightness(120%);
+}
+a.btn {
+    text-decoration: none;
+    background-color: cyan;
+    color: black;
+    padding: 5px;
+    border-radius: 100vh;
+}
+
+u {
+    display: block;
+}
+
+#instructions {
+    color: red;
+}
+
+section {
+    border: 1px solid blue;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+section h4 {
+    margin-top: 0;
+}
+
+.media * {
+    height: 200px;
+}
+
+#to-top-btn {
+    position: fixed;
+    font-size: 22pt;
+    right: 5px;
+    bottom: 5px;
+}
+
+footer {
+    background-color: darkgray;
+    color: lightgrey;
+    font-size: 10pt;
+    padding: 30px 100px;
+}
+footer a {
+    color: inherit;
+    text-decoration: none;
+}
